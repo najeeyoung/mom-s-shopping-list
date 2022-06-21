@@ -1,0 +1,50 @@
+.title {
+    text-align: center;
+}
+.head{ background-color: wheat;
+
+}
+
+.main {
+    border: 1px solid black;
+    width: 50%;
+    margin: auto; background-color: violet;
+}
+
+#add-item {
+    border: 1px solid black;
+}
+
+.input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.label {
+    margin: 10px;
+}
+
+#list {
+    flex-direction: column;
+    display: flex; background-color: turquoise;
+}
+
+#list > li{
+    list-style-type: none;
+    margin: 10px auto;
+    text-align: center;
+   
+}
+
+#list div {
+    margin-bottom: 10px;
+    text-align: center;
+}
+#body{
+    background: thistle; border-color: turquoise;background-color: wheat;
+}
